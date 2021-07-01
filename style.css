@@ -1,0 +1,38 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+.navbar {
+    background-color:#555 ;
+    color: #fff;
+    width: 100%;
+    padding: 0px 0px;
+    
+}
+nav ul li {
+    display:inline-flex;
+    padding-right: 25px;
+    padding-left: 15px;
+    width:auto;
+    padding-top: 15px  ;
+    padding-bottom: 15px ;
+    margin:0px 0px;
+}
+.fas {
+    padding-right: 6px;
+}
+.far {
+    padding-right: 6px;
+}
+.active {
+    background-color: red;
+    padding-left: 20px;
+}
+nav ul li:hover {
+    background-color: black;
+    cursor: pointer;
+}
